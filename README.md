@@ -14,9 +14,6 @@ This research is vital as it serves as a foundational step towards advocating fo
 ## What is the problem?
 Chicago has historically had a problem with allocating funds for government programs in an equitable manner. Many demographics have largely been underfunded, ignored, or discriminated against which has snowballed into larger and larger inequalities between groups of people such as gaps in wealth, income, education, health, and crime. Addressing these issues is an important step to help uplift these groups and correct the wrongs of the past. If we are able to find correlations that show certain demographics are being treated unequally when it comes to distributing TIF funds, then these issues can be addressed and corrected by crafting and passing better policies. 
 
-## Results and Conclusions Summary
-This section will highlight our most notable results. This will include statistical analysis of the relationship between TIF transfers, TIF fund allocation, race/ethnicity, income level, and property value.
-
 ## Problem Approaches
 This section will go into detail about the approach we took to tackle this problem and why.
 ### Data Collection
@@ -30,6 +27,9 @@ This section will go through the statistical analysis we have conducted to try t
 - Have TIFs helped low-income communities?
 - Does TIF district demographics determine whether funds are transferred (in or out)?
 - Does TIF district demographics determine how much property tax is extracted?
+
+## Results and Conclusions Summary
+This section will highlight our most notable results. This will include statistical analysis of the relationship between TIF transfers, TIF fund allocation, race/ethnicity, income level, and property value.
 
 ## Sources
 This section will cite all sources we have used for this project
