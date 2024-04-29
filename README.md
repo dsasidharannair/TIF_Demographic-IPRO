@@ -23,25 +23,39 @@ This next step included preparing our data before performing our statistical ana
 ### Visualizations
 This section will focus on going through our maps and how to interact with them, while also going through what each map is showing such as heat maps for TIF transfers, fund allocation, demographics, and income information.
 
-## 1. TIF Transfers Heat Map
+### 1. Median Property Value Heat Map
 
-<img src="https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Map%20Images/Folium/Median%20Value.png" alt="TIF Transfers Heat Map" width="500">
+<img src="https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Map%20Images/Folium/Median%20Value.png" alt="TIF Transfers Heat Map" width="400">
 
-This heat map illustrates the Tax Increment Financing (TIF) transfers across different regions. It offers insights into the distribution and intensity of TIF transfers within the area of interest.
+CHANGE THIS!! This heat map illustrates the Tax Increment Financing (TIF) transfers across different regions. It offers insights into the distribution and intensity of TIF transfers within the area of interest.
 
-## 2. Fund Allocation Map
+### 2. Median Real Estate Tax Distribution Heat Map
+
+<img src="https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Map%20Images/Folium/Median%20Real%20Estate%20Tax.png" alt="Median Real Estate Tax Heat Map" width="400">
 
 The Fund Allocation Map displays how funds are distributed across different sectors or projects. It provides a visual representation of the allocation strategy adopted by authorities.
 
-## 3. Demographics Distribution Map
+### 3. Cumulative Property Tax Distribution Heat Map
+
+<img src="https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Map%20Images/Folium/Cumulative%20Property%20Tax%20Distribution.png" alt="Cumulative Property Tax Distribution Heat Map" width="400">
 
 This map showcases the distribution of demographics within the studied area. It helps in understanding the population density and composition across different regions.
 
-## 4. Income Information Map
+### 4. White Community Population Distribution Estimate Heat Map
+
+<img src="https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Map%20Images/Folium/White%20Population%20Estimate.png" alt="White Population Distribution Estimate Heat Map" width="400">
 
 The Income Information Map visualizes income data, highlighting areas with varying income levels. It aids in identifying socio-economic disparities within the community.
 
-## 5. [Title of the Fifth Map]
+### 5. Black Community Population Distribution Estimate Heat Map
+
+<img src="https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Map%20Images/Folium/Black%20Population%20Estimate.png" alt="Black Community Population Distribution Estimate HeatMap" width="400">
+
+[Description of the fifth map and its significance]
+
+### 6. Hispanic Community Population Distribution Estimate Heat Map
+
+<img src="https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Map%20Images/Folium/Hispanic%20Population%20Estimate.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
 
 [Description of the fifth map and its significance]
 
