@@ -25,7 +25,7 @@ This section will focus on going through our maps and how to interact with them,
 
 ## 1. TIF Transfers Heat Map
 
-![Median Property Value HeatMap](TIF_Demographic-IPRO/Map%20Images/Folium/Median%20Value.png)
+<img src="TIF_Demographic-IPRO/Map Images/Folium/Median Value.png" alt="TIF Transfers Heat Map">
 
 This heat map illustrates the Tax Increment Financing (TIF) transfers across different regions. It offers insights into the distribution and intensity of TIF transfers within the area of interest.
 
