@@ -27,19 +27,25 @@ This section will focus on going through our maps and how to interact with them,
 
 <img src="https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Map%20Images/Folium/Median%20Value.png" alt="TIF Transfers Heat Map" width="400">
 
-CHANGE THIS!! This heat map illustrates the Tax Increment Financing (TIF) transfers across different regions. It offers insights into the distribution and intensity of TIF transfers within the area of interest.
+The map is a heatmap that represents the median property values across Chicago's various census tracts, using a color scale that ranges from red to green. The color-coded outline of each census tract corresponds to its median property value, enabling a visual comparison of economic disparities within the city. The map can be read by looking at the color of a particular tract and using the color scale with the median value at the top in order to translate the color into a suitable range of property values. The darker the shade of green, the more expensive the properties in that area are, and conversely, the darker the shade of red, the less expensive the properties. 
+
+The trend for increasingly costly real estate in these TIF regions is reflected in the heatmap of Chicago's median property values, which shows a noticeable gradient with greater values centered along the lakefront in East Chicago and the downtown area. While South and West Chicago primarily exhibit lower median property values, North Chicago exhibits a combination of greater and lower property values. The northern and center regions of the city appear to be wealthier than the southern and western regions, indicating a variation in real estate values.
 
 ### 2. Median Real Estate Tax Distribution Heat Map
 
 <img src="https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Map%20Images/Folium/Median%20Real%20Estate%20Tax.png" alt="Median Real Estate Tax Heat Map" width="400">
 
-The Fund Allocation Map displays how funds are distributed across different sectors or projects. It provides a visual representation of the allocation strategy adopted by authorities.
+The above map uses a color scale, from red to green, to show the median real estate taxes of the various census tracts in Chicago. Red denotes lower tax values, while green denotes higher tax values. The color-coding and separation of the census tracts reflect the median tax value of each one. Viewers are able to understand the distribution of taxes around the city by referring to the color scale at the top of the map, which shows the precise range of taxes linked with each color. Tracts with the highest real estate taxes are indicated by dark green areas, while those with the lowest are indicated by dark red areas. 
+
+Based on this heatmap, the distribution of median real estate taxes in Chicago shows a varied picture. Green-toned areas indicate census tracts with higher median real estate taxes, which are found in North Chicago and certain lakefront areas. This suggests a larger tax burden on real estate, which is frequently associated with greater property values and possibly more wealthy neighborhoods. Center, South, and West Chicago, on the other hand, have a more varied pattern, with some regions (yellow to light green areas) showing fairly high taxes and others (orange to red areas) showing lower taxes. 
 
 ### 3. Cumulative Property Tax Distribution Heat Map
 
 <img src="https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Map%20Images/Folium/Cumulative%20Property%20Tax%20Distribution.png" alt="Cumulative Property Tax Distribution Heat Map" width="400">
 
-This map showcases the distribution of demographics within the studied area. It helps in understanding the population density and composition across different regions.
+With a color scale that goes from red for smaller quantities of tax income received to green for higher amounts, the heatmap shows the cumulative property tax taken for Tax Increment Financing (TIF) across Chicago's census tracts. To read this map, you can identify the color of a tract and compare it to the color scale provided at the top, which quantifies the tax revenue. Darker shades of green suggest higher tax revenues, while darker red tones indicate areas with poor tax collection. Understanding the economic contribution of various areas to TIF is made easier with the help of this visualization, which also might show trends in city investment and development.
+
+The map exhibits the varied distribution pattern of cumulative property tax contributions made by people of Chicago. The greener tones indicate greater contributions from the northern areas and parts of North West Chicago. These areas typically have higher property values, potentially translating to larger tax increments for TIF. The pattern in Central Chicago is more varied, with certain tracts contributing more and others less. By contrast, the majority of South and West Chicago exhibit lesser TIF contributions, as indicated by the red colors.
 
 ### 4. White Community Population Distribution Estimate Heat Map
 
