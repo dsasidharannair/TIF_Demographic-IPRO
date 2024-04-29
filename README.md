@@ -22,6 +22,29 @@ The first step of the approach was collecting our data. This included the Civic 
 This next step included preparing our data before performing our statistical analysis. In the process of data preparation for our statistical analysis, meticulous steps were taken to ensure the reliability and coherence of the datasets utilized. Initial efforts involved amalgamating demographic data sourced at the census tract level, encompassing key indicators such as racial population distribution, median household income stratified by race, median property values, and property tax figures. To accurately contextualize these demographic insights within the framework of TIF (Tax Increment Financing) districts, an additional layer of complexity was introduced: the determination of the overlap ratio between census tracts and TIF districts. Leveraging the assumption of even population distribution across census tracts, estimations of population breakdown by race were derived for each TIF district. This nuanced approach enabled the creation of a comprehensive dataset, which was subsequently merged with a TIF report dataset housing exhaustive information on fund allocation to TIFs. The resultant amalgamation of data sets facilitated our capacity to undertake robust exploratory analyses, illuminating the intricate correlations between demographic indicators and fund allocation within Chicago's TIF districts.
 ### Visualizations
 This section will focus on going through our maps and how to interact with them, while also going through what each map is showing such as heat maps for TIF transfers, fund allocation, demographics, and income information.
+
+## 1. TIF Transfers Heat Map
+
+![Median Property Value HeatMap](TIF_Demographic-IPRO/Map Images/Folium/Median Value.png)
+
+This heat map illustrates the Tax Increment Financing (TIF) transfers across different regions. It offers insights into the distribution and intensity of TIF transfers within the area of interest.
+
+## 2. Fund Allocation Map
+
+The Fund Allocation Map displays how funds are distributed across different sectors or projects. It provides a visual representation of the allocation strategy adopted by authorities.
+
+## 3. Demographics Distribution Map
+
+This map showcases the distribution of demographics within the studied area. It helps in understanding the population density and composition across different regions.
+
+## 4. Income Information Map
+
+The Income Information Map visualizes income data, highlighting areas with varying income levels. It aids in identifying socio-economic disparities within the community.
+
+## 5. [Title of the Fifth Map]
+
+[Description of the fifth map and its significance]
+
 ### Regression
 This section will go through the statistical analysis we have conducted to try to look into the problem that we are investigating. We will use regression to answer the following questions:
 - Have TIFs helped low-income communities?
