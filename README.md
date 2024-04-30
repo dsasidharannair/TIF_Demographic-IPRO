@@ -59,13 +59,17 @@ The distribution of the white population in Chicago varies significantly, as can
 
 <img src="https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Map%20Images/Folium/Black%20Population%20Estimate.png" alt="Black Community Population Distribution Estimate HeatMap" width="400">
 
+The map that is being presented above is a heat map of the distribution of Black / African American population in Chicago census tracts. It utilizes a color gradient, where areas with a lower population are represented by red, and those with a larger population by green. By comparing each census tract's color intensity with the color scale at the top, you can calculate a  numerical estimate of the population size. Deeper green colors are associated with higher concentrations of Black and African American residents, whereas deeper red colors are associated with lesser concentration of same community. 
 
+The heat map shows that there are numerous places in Chicago where the Black and African American population is predominant. Greener tones are utilized to highlight the city's southern and western regions, which indicate that these census tracts have denser populations. Conversely, the redder colors represent lower populations in the northern and some eastern regions. 
 
 ### 6. Hispanic Community Population Distribution Estimate Heat Map
 
 <img src="https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Map%20Images/Folium/Hispanic%20Population%20Estimate.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
 
-[Description of the fifth map and its significance]
+The map illustrates the distribution of the Hispanic population within Chicago's census tracts. Using a color scale ranging from red to green, which indicates areas with a lower Hispanic population and green areas with a larger Hispanic population, the map shows the distribution of the Hispanic population within Chicago's census tracts. Viewers can use the color scale at the top to interpret the numerical population estimates for each color range. The color depth represents the density of the people. Tracts with denser Hispanic populations are shown by deeper greens, whereas those with sparser Hispanic populations are indicated by darker reds. 
+
+The heatmap indicates higher concentrations of the hispanic community in certain sectors of Chicago, especially in areas that show as darker green. These are more common in the western portions of the city and in a few communities close to the city center. The orange and yellow tones suggest that there is also a noticeable presence in the southwest regions.  The red colored tracts indicate that the Hispanic population appears to be smaller in the northern and eastern areas.
 
 ### Regression
 This section will go through the statistical analysis we have conducted to try to look into the problem that we are investigating. We will use regression to answer the following questions:
