@@ -51,13 +51,15 @@ The map exhibits the varied distribution pattern of cumulative property tax co
 
 <img src="https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Map%20Images/Folium/White%20Population%20Estimate.png" alt="White Population Distribution Estimate Heat Map" width="400">
 
-The Income Information Map visualizes income data, highlighting areas with varying income levels. It aids in identifying socio-economic disparities within the community.
+This heatmap, utilizing a color spectrum from red to green, shows how the white population is distributed throughout the census tracts of Chicago. Green denotes locations with a greater concentration of white people, whereas red denotes areas with fewer white people. Based on the scale at the top of the map, the color intensity corresponds to the number of White people in each tract. By contrasting the colors of each census tract with the color scale, viewers are able to determine the approximate number of the white population in various regions of the city.
+
+The distribution of the white population in Chicago varies significantly, as can be seen by looking at the heat map. The map displays areas with a greater number of white people as greener regions. These areas seem to be more common in the northern parts of Chicago, near the lakefront. The red colors, on the other hand, represent a smaller number of white people in the city's southern and western areas. 
 
 ### 5. Black Community Population Distribution Estimate Heat Map
 
 <img src="https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Map%20Images/Folium/Black%20Population%20Estimate.png" alt="Black Community Population Distribution Estimate HeatMap" width="400">
 
-[Description of the fifth map and its significance]
+
 
 ### 6. Hispanic Community Population Distribution Estimate Heat Map
 
