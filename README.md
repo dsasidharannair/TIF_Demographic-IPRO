@@ -78,10 +78,45 @@ The map illustrates the distribution of the Hispanic population within Chicago's
 
 The heatmap indicates higher concentrations of the hispanic community in certain sectors of Chicago, especially in areas that show as darker green. These are more common in the western portions of the city and in a few communities close to the city center. The orange and yellow tones suggest that there is also a noticeable presence in the southwest regions.  The red colored tracts indicate that the Hispanic population appears to be smaller in the northern and eastern areas.
 
+### 7. TIF Transfer Heatmap (Total Transferred / Total Tax Collected)
+<img src="https://raw.githubusercontent.com/dsasidharannair/TIF_Demographic-IPRO/main/Transfers/TIF_Transfer_Images/TransferMap1.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
+
+This map above visualizes the amount of money a TIF district transfers in or out of their district. The figures are normalized by dividing the amount transferred in/out to the total tax collected by that district. This map aggregates all the transfers from 2014 to 2022 to give a holistic view of how the TIF transfers have trended in the 8 year period. Most TIF districts have very small transfers relative to the amount of tax they collect since a lot of the figure remain between 0.3 and -0.3
+
+### 8. TIF Transfer Heatmap (Discrete Values)
+<img src="https://raw.githubusercontent.com/dsasidharannair/TIF_Demographic-IPRO/main/Transfers/TIF_Transfer_Images/TransferMap2.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
+
+This map above visualizes the amount of money a TIF district transfers in or out of their district. The figures above are discrete figures where yellow represents an overall larger sum of transfers in than transfers out, pink represents an equal weightage, and purple represents an overall larger sum of transfers out than transfers in. This map aggregates all the transfers from 2014 to 2022 to give a holistic view of how the TIF transfers have trended in the 8 year period. As you can see, there is a lot more variation in the map compared to the one above.
+
+### 8. TIF Transfer Heatmap By Demographic
+<img src="https://raw.githubusercontent.com/dsasidharannair/TIF_Demographic-IPRO/main/Transfers/TIF_Transfer_Images/Black1.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
+<img src="https://raw.githubusercontent.com/dsasidharannair/TIF_Demographic-IPRO/main/Transfers/TIF_Transfer_Images/Black2.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
+<img src="https://raw.githubusercontent.com/dsasidharannair/TIF_Demographic-IPRO/main/Transfers/TIF_Transfer_Images/White1.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
+<img src="https://raw.githubusercontent.com/dsasidharannair/TIF_Demographic-IPRO/main/Transfers/TIF_Transfer_Images/White2.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
+<img src="https://raw.githubusercontent.com/dsasidharannair/TIF_Demographic-IPRO/main/Transfers/TIF_Transfer_Images/Hispanic1.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
+<img src="https://raw.githubusercontent.com/dsasidharannair/TIF_Demographic-IPRO/main/Transfers/TIF_Transfer_Images/Hispanic2.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
+<img src="https://raw.githubusercontent.com/dsasidharannair/TIF_Demographic-IPRO/main/Transfers/TIF_Transfer_Images/Asian1.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
+<img src="https://raw.githubusercontent.com/dsasidharannair/TIF_Demographic-IPRO/main/Transfers/TIF_Transfer_Images/Asian2.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
+
+This maps above visualizes the amount of money a TIF district transfers in or out of their district. The dataset from #7 is divided up by demographic. The figures are normalized by dividing the amount transferred in/out to the total tax collected by that district. The figures above are discrete figures where yellow represents an overall larger sum of transfers in than transfers out, pink represents an equal weightage, and purple represents an overall larger sum of transfers out than transfers in. This map aggregates all the transfers from 2014 to 2022 to give a holistic view of how the TIF transfers have trended in the 8 year period. 
+
+The data shows that many of the TIF districts received a mixed amount of positive and negative transfers. This leads us to believe that there is little noticeable discrimination in the way the City of Chicago conducts it's TIF transfer policy decisions. However, the dataset was limited. In the future, we would like to further analyze aspects about the projects that were being funded as well as get data of TIF transfers prior to 2014 to explore for any patterns of discrimination as well. 
+
 ### Regression
 This section will go through the statistical analysis we have conducted to try to look into the problem that we are investigating. We will use regression to answer the following questions:
 - Have TIFs helped low-income communities?
 - Does TIF district demographics determine whether funds are transferred (in or out)?
+	- We attempted to train various different models in order to try and predict two different target variables. The first was the amount of money a TIF district would be transferred. Here a positive value meant a transfer in and a negative value meant a transfer out. The predictors were the racial demographic makeup of the TIF districts, specifically the White, Black, Asian, and Hispanic demographics.
+	- We trained a Multi-Linear Regression model. This model does not require much preprocessing because the model is pretty simple. However, the model was not able to fit the data well with a Mean Squared Error of  18990423612549.88
+	- We also trained a Multinomial Logistic Regression Model. This model tried classify if a TIF district would receive a positive or negative/no transfer. The data was heavily skewed towards the negative/no transfer end which caused the model to predict "negative transfer" 95% of the time. 
+
+<img src="https://raw.githubusercontent.com/dsasidharannair/TIF_Demographic-IPRO/main/Transfers/TIF_Transfer_Images/WhiteRegression.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
+<img src="https://raw.githubusercontent.com/dsasidharannair/TIF_Demographic-IPRO/main/Transfers/TIF_Transfer_Images/BlackRegression.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
+<img src="https://raw.githubusercontent.com/dsasidharannair/TIF_Demographic-IPRO/main/Transfers/TIF_Transfer_Images/AsianRegression.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
+<img src="https://raw.githubusercontent.com/dsasidharannair/TIF_Demographic-IPRO/main/Transfers/TIF_Transfer_Images/HispanicRegression.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
+
+<img src="https://raw.githubusercontent.com/dsasidharannair/TIF_Demographic-IPRO/main/Transfers/TIF_Transfer_Images/LogisticRegression.png" alt="Hispanic Community Population Distribution Estimate Heat Map" width="400">
+
 - Does TIF district demographics determine how much property tax is extracted?
 
 ## Results and Conclusions Summary
