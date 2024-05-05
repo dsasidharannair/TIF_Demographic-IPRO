@@ -125,5 +125,10 @@ This section will highlight our most notable results. This will include statisti
 Ethical Reflection:
 During this project, we reflected on ethical outcomes that may come from our analysis. When thinking of the impact TIF districts have, we identified Chicago residents, more specifically minorities, as stakeholders. This project looked to answer whether are equitably being used across the city which is important to our stakeholders because the city claims that TIFs are meant to create opportunities for all residents. While making progress on this analysis, we continued to provide transparency and respect for individuals when searching for demographic indicators that influence the allocation of TIF funds across districts. By providing transparency, we are honest in explaining how we came to our conclusions and aiming to help minorities in Chicago that are overlooked by society.
 
+## Where to find
+
+- [Folium Map Images](https://github.com/dsasidharannair/TIF_Demographic-IPRO/tree/main/Map%20Images/Folium)
+- [Pyplot Map Images](https://github.com/dsasidharannair/TIF_Demographic-IPRO/tree/main/Map%20Images/Pyplot)
+
 ## Sources
 This section will cite all sources we have used for this project
