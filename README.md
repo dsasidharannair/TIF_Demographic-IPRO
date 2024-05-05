@@ -129,6 +129,9 @@ During this project, we reflected on ethical outcomes that may come from our ana
 
 - [Folium Map Images](https://github.com/dsasidharannair/TIF_Demographic-IPRO/tree/main/Map%20Images/Folium)
 - [Pyplot Map Images](https://github.com/dsasidharannair/TIF_Demographic-IPRO/tree/main/Map%20Images/Pyplot)
+- [Census Tract and TIF intersection and non intersection with dataset](https://github.com/dsasidharannair/TIF_Demographic-IPRO/tree/main/Intersecting%20and%20non%20intersecting)
+- [Cumulative Demographic Map HTML](https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Final%20HeatMaps%20Code/DemographicMap.html)
+- [Final Heat Maps Code and Data Set](https://github.com/dsasidharannair/TIF_Demographic-IPRO/tree/main/Final%20HeatMaps%20Code)
 
 ## Sources
 This section will cite all sources we have used for this project
