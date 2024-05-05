@@ -133,7 +133,7 @@ During this project, we reflected on ethical outcomes that may come from our ana
 - [Cumulative Demographic Map HTML](https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Final%20HeatMaps%20Code/DemographicMap.html)
 - [Final Heat Maps Code and Data Set](https://github.com/dsasidharannair/TIF_Demographic-IPRO/tree/main/Final%20HeatMaps%20Code)
 - [TIF Transfer Maps and Model Result Images](https://github.com/dsasidharannair/TIF_Demographic-IPRO/tree/main/Transfers/TIF_Transfer_Images)
-- [TIF Transfer Model Training](https://github.com/dsasidharannair/TIF_Demographic-IPRO/tree/main/Transfers/TIF_Transfer_Images](https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Transfers/Correlation_search.ipynb)
+- [TIF Transfer Model Training](https://github.com/dsasidharannair/TIF_Demographic-IPRO/tree/main/Transfers/TIF_Transfer_Images](https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Transfers/Correlation_search.ipynb )
 - TIF Transfer Data Processing [1](https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Transfers/Format_Master_TIF.ipynb) [2](https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Transfers/Merge_Transfers.ipynb) [3](https://github.com/dsasidharannair/TIF_Demographic-IPRO/blob/main/Transfers/Fund_Transfer_Extraction_2.ipynb)
 
 ## Sources
