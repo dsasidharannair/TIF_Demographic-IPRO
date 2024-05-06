@@ -139,3 +139,8 @@ During this project, we reflected on ethical outcomes that may come from our ana
 
 ## Sources
 This section will cite all sources we have used for this project
+- [Chicago Census Tract Boundaries](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Census-Tracts-2010/5jrd-6zik)
+- [Chciago TIF Boundaries](https://data.cityofchicago.org/Community-Economic-Development/TIF-Boundaries/ku9w-h8e9)
+- [Chicago Community Areas Boundaries](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-current-/cauq-8yn6)
+- [Chicago Census Data](https://data.census.gov/profile/Chicago_city,_Illinois?g=160XX00US1714000)
+- [TIF Civic Lab Data](https://github.com/philipayates/chicago2022TIF)
